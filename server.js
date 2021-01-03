@@ -4,7 +4,7 @@ var express = require('express'),
   app = express(),
   port = process.env.PORT || 8080;
   mongoose = require('mongoose'),
-  CredirCard = require("./api/models/creditCardModel"),
+  CreditCard = require("./api/models/creditCardModel"),
 
   mongoose.Promise = global.Promise;
   mongoose.connect('mongodb://localhost/creditCarddb');
