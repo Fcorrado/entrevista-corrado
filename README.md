@@ -28,7 +28,7 @@ npm install
 
 ## Database
 
-Use mongoDB to create a database for this API, in src/index.js you can modify the port and schema name (default schema name: creditCarddb and port: 27017).
+Use mongoDB to create a database for this API, in server.js you can modify the port and schema name (default schema name: creditCarddb and port: 27017).
 
 ## Run
 
